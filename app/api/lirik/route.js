@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-   import { supabase } from '@/lib/supabase'; // Sesuaikan lokasi import jika berbeda
+   import { supabase } from '../../lib/supabase';
 
    export async function GET() {
      // Mengambil semua data dari tabel lagu_pop
